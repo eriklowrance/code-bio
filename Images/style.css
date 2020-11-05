@@ -1,0 +1,35 @@
+.container {
+    /* position: relative;
+    min-height: 80vh;
+    */
+    border: 2px turquoise solid;
+    background-color: darkgray;
+    color: rgb(99, 240, 226);
+    }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: turquoise;
+    text-align: center;
+/*      
+    text-align: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: grey;
+    color: blue;
+     */
+  }
+
+
+  @media only screen and (max-width: 992px) {
+    .container {
+      width: 80%;
+      margin-right: 40%;
+    }
+  }
